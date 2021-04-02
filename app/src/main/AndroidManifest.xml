@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodOrder">
         <activity android:name=".DetailedActivity"></activity>
-        <activity android:name=".OrdersActivity" />
+        <activity android:name=".OrdersActivity"
+            android:label="My Orders List"
+            />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
